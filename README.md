@@ -1,1 +1,3 @@
-# Welcome a mi portafolio, sientete libre de explorarlo dando clic [aqui](https://charqueno.github.io/Portafolio/index.html).
+# Bienvenido al repositorio de mi _portafolio_. 
+
+Sientete libre de explorarlo dando clic [aqui](https://charqueno.github.io/Portafolio/portafolio/index.html).
