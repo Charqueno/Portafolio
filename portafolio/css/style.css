@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6, p {
 .menu {
   margin-top: 2rem;
   padding: 0.5rem;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(166, 172, 189, 0.5);
   border-top: 0.1rem solid rgba(86, 86, 86, 0.5);
   border-bottom: 0.1rem solid rgba(86, 86, 86, 0.5);
   position: sticky;
