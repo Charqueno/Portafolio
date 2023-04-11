@@ -2,6 +2,7 @@ body, html{
     margin: 0;
     font-family: arial;
     font-size: 18px;
+    scroll-behavior: smooth;
     }
 
     #header{
@@ -42,10 +43,38 @@ body, html{
     color: #E5DFDF;
     }
 
-    .banner img{
-    max-width: 100%;
-    }
-
     .main-nav a:hover {
      color: #ffffff;
+    }
+
+    .banner img{
+    max-width: 100%;
+    vertical-align: top;
+    }
+
+    .about-section{
+    height: 100vh;
+    display: flex;
+    background: #88C690;
+    align-items: center;
+    }
+
+    .projects-section{
+    height: 100vh;
+    display: flex;
+    background: #cfd6f9;
+    align-items: center;
+    }
+
+    .experience-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #dbfbf4;
+    }
+
+    .contact-section{
+    display: flex;
+    align-items: center;
+    background: #C68888;
     }
