@@ -107,9 +107,7 @@ h1, h2, h3, h4, h5, h6, p {
 .menu {
   margin-top: 2rem;
   padding: 0.5rem;
-  background: rgba(65, 156, 175, 0.5);
-  border-top: 0.1rem solid rgba(86, 86, 86, 0.5);
-  border-bottom: 0.1rem solid rgba(86, 86, 86, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   position: sticky;
   z-index: 11;
   top: 0;
@@ -146,7 +144,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .menu .contenedor-menu a:hover {
   color: rgba(225, 225, 225, 0.5);
-  font-size: 16pt;
+  font-size: 13pt;
 }
 .menu .idiomas {
   display: none;
