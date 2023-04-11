@@ -146,6 +146,21 @@ h1, h2, h3, h4, h5, h6, p {
 .menu .contenedor-menu a:hover {
   color: #c90c0f;
 }
+.menu .idiomas {
+  display: none;
+  grid-template-columns: repeat(auto-fit, minmax(1.5625rem, 1fr));
+  align-items: center;
+  text-align: center;
+}
+.menu .idiomas img.active {
+  opacity: 0.5;
+}
+.menu .idiomas img {
+  width: 1.5rem;
+}
+.menu .idiomas img:hover {
+  opacity: 0.5;
+}
 
 .header {
   height: 30rem;
