@@ -47,6 +47,11 @@ body, html{
      color: #ffffff;
     }
 
+    .logo img{
+    width: 70px;
+    height: 70px;
+    }
+
     .banner img{
     max-width: 100%;
     vertical-align: top;
