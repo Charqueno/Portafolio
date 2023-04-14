@@ -71,7 +71,8 @@ body, html{
     .projects-section{
     height: 100vh;
     display: flex;
-    background: #818181;
+    top:0px;
+    background:  #282828 ;
     align-items: center;
     }
 
@@ -85,7 +86,7 @@ body, html{
     .contact-section{
     display: flex;
     align-items: center;
-    background: #818181;
+    background:  #282828;
     }
 
     .text-about{
@@ -95,4 +96,93 @@ body, html{
     color: #fff;
     font-size: 35px;
     transform: translate(-50%, -50%);
+    }
+
+.container .container-projects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .container-projects img{
+     width: 350px;
+     height: 340px;
+     background: #428bca;
+     transition: .5s;
+}
+
+
+h1{
+text-align:center;
+padding: 10px;
+font-size: 50px;
+font-family: arial;
+}
+
+.container-image{
+  position: relative;
+  overflow: hidden;
+}
+
+.projects-image{
+  display: block;
+  height: auto;
+  opacity:1;
+}
+
+.container-text{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  //transition: 0.1s ease;
+ // background-color: #c3ac76;
+}
+
+.projects-text{
+  color: white;
+  font-size: 25px;
+  font-family: arial;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-image:hover .projects-image {
+  opacity: 0.4;
+  transform: scale(1.1);
+}
+
+.container-image:hover .container-text {
+  opacity: 1;
+}
+
+.text{
+font-size: 22px;
+  font-family: arial;
+}
+
+.container .container-de{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .container-de img{
+     width: 250px;
+     height: 240px;
+     transition: .3s;
+     border: 1px solid #000;
+}
+
+.container .container-de img:hover {
+    transform: scale(1.05);
 }
