@@ -339,7 +339,7 @@ opacity:0.5 ;
    display: flex;
     justify-content: space-around;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 3ren;
 }
 
 @keyframes pokeup {
@@ -354,9 +354,9 @@ transform:translateY(0)
 }
 }
 .animation-hover{
-    width:5rem;
-  height:5rem;
-  outline:none;
-  border: none;
+    width:5ren;
+    height:5rem;
+    outline:none;
+    border: none;
     animation: pokeup 3s ease-in-out infinite
 }
