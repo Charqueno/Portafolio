@@ -1,4 +1,4 @@
-    body, html{
+   body, html{
     margin: 0;
     font-family: arial;
     font-size: 18px;
@@ -100,7 +100,7 @@
 
 .container-mine .container-projects{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -177,11 +177,12 @@ font-size: 22px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .container .container-de img{
-     width: 250px;
-     height: 240px;
+     width: 230px;
+     height: 220px;
      transition: .3s;
      border: 1px solid #000;
 }
@@ -233,6 +234,7 @@ font-size: 22px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 4rem;
 }
 
 .container-mine .container-exp img{
@@ -263,4 +265,98 @@ font-size: 22px;
 text-align: center;
 font-size: 20px;
   font-family: arial;
+}
+
+/*Clase de iconos de desarrollo*/
+.dev_icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 1rem;
+    padding: 2.5rem;
+}
+.container-de .dev_icon img{
+  width:50px;
+  height:50px;
+  outline:none;
+  border: none;
+}
+
+.container-text-movil{
+display:none;
+}
+
+@media (max-width: 640px){
+ .text-about{
+    text-align: center;
+    font-size: 3rem;
+ }
+ .container>.container-de{
+ flex-direction: column;
+ }
+ .container-mine >.container-projects, .container-exp{
+ flex-direction: column;
+ gap: 2rem;
+ }
+ .container-mine > .container-exp{
+ flex-direction: column;
+ gap: 9rem;
+ }
+ .container-mine > .logo {
+ display:none;
+ }
+ .container-mine > .main-nav > ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+ }
+ .container-mine > .main-nav {
+    margin-top:1rem;
+    margin-bottom:1rem;
+    width: 100%;
+ }
+
+ .container-mine > .main-nav > ul > li{
+ font-size:2rem;
+ }
+
+ #header{
+ backdrop-filter:blur(15px)
+ }
+
+ .container-text-movil{
+   display:block;
+}
+
+.projects-image{
+opacity:0.5 ;
+}
+
+}
+
+/*animacion hover*/
+.container-animation{
+   display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+@keyframes pokeup {
+0%{
+transform:translateY(0)
+}
+50%{
+transform:translateY(-15px)
+}
+100%{
+transform:translateY(0)
+}
+}
+.animation-hover{
+    width:5rem;
+  height:5rem;
+  outline:none;
+  border: none;
+    animation: pokeup 3s ease-in-out infinite
 }
