@@ -272,8 +272,7 @@ font-size: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 1rem;
-    padding: 2.5rem;
+    padding: 2%;
 }
 .container-de .dev_icon img{
   width:50px;
@@ -339,7 +338,7 @@ opacity:0.5 ;
    display: flex;
     justify-content: space-around;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 4%;
 }
 
 @keyframes pokeup {
@@ -354,8 +353,8 @@ transform:translateY(0)
 }
 }
 .animation-hover{
-    width:5rem;
-    height:5rem;
+    width:6%;
+  height:6%;
     outline:none;
     border: none;
     animation: pokeup 3s ease-in-out infinite
