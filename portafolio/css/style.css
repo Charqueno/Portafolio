@@ -64,10 +64,10 @@
    }
 
    .about-section {
-     height: 100vh;
      display: flex;
      background: #fff;
      align-items: center;
+     padding-bottom: 4rem;
    }
 
    .projects-section {
@@ -195,6 +195,7 @@
 
    .container .container-pdf {
      display: flex;
+     flex-direction: row;
      justify-content: space-between;
      align-items: center;
      text-align: center;
