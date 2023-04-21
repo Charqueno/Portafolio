@@ -71,21 +71,20 @@
    }
 
    .projects-section {
-     height: 100vh;
      display: flex;
      background: #282828;
      align-items: center;
    }
 
    .experience-section {
-     height: 100vh;
      display: flex;
      align-items: center;
      background: #fff;
    }
 
    .contact-section {
-     height: 27vh;
+     height: 300px;
+     width: 100vw;
      display: flex;
      align-items: center;
      background: #282828;
