@@ -36,8 +36,8 @@
 
    .main-nav ul li {
      float: left;
-     margin-left: 20px;
-     font-size: 16px;
+     margin-left: 25px;
+     font-size: 18px;
    }
 
    .main-nav ul li a {
@@ -321,13 +321,13 @@
      }
 
      .container-mine>.main-nav {
-       margin-top: 1rem;
-       margin-bottom: 1rem;
+       margin-top: 5px;
+       margin-bottom: 5px;
        width: 100%;
      }
 
      .container-mine>.main-nav>ul>li {
-       font-size: 2rem;
+       font-size: 15px;
      }
 
      #header {
